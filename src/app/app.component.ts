@@ -13,5 +13,12 @@ import { Component } from '@angular/core';
   ],
 })
 export class AppComponent {
-  name = 'Rob';
+  username = '';
+
+  onUpdateUsername(event: Event) {
+    this.username = (<HTMLInputElement>event.target).value;
+  }
+  onResetValueUsername() {
+    this.username = '';
+  }
 }

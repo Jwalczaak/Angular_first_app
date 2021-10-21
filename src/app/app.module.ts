@@ -16,7 +16,7 @@ import { WarningAlertComponent } from './warning-alert/warning-alert.component';
     WarningAlertComponent,
     SuccesAlertComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
